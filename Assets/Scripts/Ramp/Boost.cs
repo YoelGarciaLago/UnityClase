@@ -12,18 +12,6 @@ public class RampTrigger : MonoBehaviour
     // Sugerencia: Usa [SerializeField] para mayor flexibilidad.
     private bool aplicarFuerzaRelativaRampa = true;
 
-    // Start es llamado antes del primer frame de actualización
-    void Start()
-    {
-        // Este método está vacío. Si no es necesario, considera eliminarlo para reducir código innecesario.
-    }
-
-    // Update es llamado una vez por frame
-    void Update()
-    {
-        // Este método está vacío. Si no es necesario, considera eliminarlo para reducir código innecesario.
-    }
-
     // Método que se ejecuta al detectar que un objeto entra en el trigger
     void OnTriggerEnter(Collider other)
     {

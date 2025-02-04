@@ -45,11 +45,11 @@ public class PlayerMovement : MonoBehaviour
             Destroy(rb);
             countText.text = "You Lose";
         }
-        if (other.gameObject.CompareTag("Accelerator"))
+       /* if (other.gameObject.CompareTag("Accelerator"))
         {
             Vector3 boostDirection = transform.forward; // Dirección del empuje (ajústalo según el suelo)
             rb.AddForce(boostDirection * speed, ForceMode.Impulse);
-        }
+        }*/
     }
 
     void SetCountText()
